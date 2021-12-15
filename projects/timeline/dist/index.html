@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FlexBox Exercise #3 - Image carousel</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <title>FlexBox Exercise #3 - Image carousel / Responsive </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="carousel">
+  <div class="carousel__nav">
+   <span id="moveLeft" class="carousel__arrow">
+        <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+</svg>
+    </span>
+    <span id="moveRight" class="carousel__arrow" >
+      <svg class="carousel__icon"  width="24" height="24" viewBox="0 0 24 24">
+  <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+</svg>    
+    </span>
+  </div>
+  <div class="carousel-item carousel-item--1">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">6 maja 2021</h2>
+      <h1 class="carousel-item__title">Początek prac</h1>
+      <p class="carousel-item__description">Coś, co było wcześniej dachem, zyskuje ściany. To początek naszej długiej przygody.</p>
+        </div>
+    </div>
+  </div>
+  <div class="carousel-item carousel-item--2">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">15 czerwca 2021</h2>
+      <h1 class="carousel-item__title">Czas na okna</h1>
+      <p class="carousel-item__description">Mury skończone, pomieszczenie zadaszone. Kolejnym elementem układanki jest montaż okien.</p>
+        </div>
+    </div>
+  </div>
+    <div class="carousel-item carousel-item--3">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">7 sierpnia 2021</h2>
+      <h1 class="carousel-item__title">Podłoga</h1>
+      <p class="carousel-item__description">Czas na wyrównanie podłoża, które nie jest równe. Wjechała wylewka samopoziomująca.</p>
+        </div>
+    </div>
+  </div>
+  
+   <div class="carousel-item carousel-item--4">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">7 września 2021</h2>
+      <h1 class="carousel-item__title">Prace hydrauliczne</h1>
+      <p class="carousel-item__description">Początek prac hydraulika. Podłączamy odpływ kanalizacyjny, doprowadzamy zasilanie wodne i poprawiamy wentylację.</p>
+        </div>
+    </div>
+  </div>
+  
+ <div class="carousel-item carousel-item--5">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">14 września 2021</h2>
+      <h1 class="carousel-item__title">Burzenie muru</h1>
+      <p class="carousel-item__description">Destrukcja! Czas na odkucie ściany, która przeszkadza w przejściu do pomieszczenia.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="carousel-item carousel-item--6">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">17 września 2021</h2>
+      <h1 class="carousel-item__title">Hydrauliki ciąg dalszy</h1>
+      <p class="carousel-item__description">Zbliża się koniec prac hydraulicznych. Wiszą grzejniki, rury są na swoich miejscach.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="carousel-item carousel-item--7">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">8 października 2021</h2>
+      <h1 class="carousel-item__title">Kupno materiałów</h1>
+      <p class="carousel-item__description">Przyjechały materiały na wykończenie - płyty g-k i wełna mineralna.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="carousel-item carousel-item--8">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">1 grudnia 2021</h2>
+      <h1 class="carousel-item__title">Początek wykończenia</h1>
+      <p class="carousel-item__description">Długo wyczekiwany moment - początek prac wykończeniowych. Gotowy szkielet sufitu.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="carousel-item carousel-item--9">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">2 grudnia 2021</h2>
+      <h1 class="carousel-item__title">Płyty na ścianach</h1>
+      <p class="carousel-item__description">Ściany zaczynają wyglądać przyjaźnie. Przykręcony sufit i kable poprowadzone przez wycięcia.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="carousel-item carousel-item--10">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">4 grudnia 2021</h2>
+      <h1 class="carousel-item__title">Gipsowanie i zacieranie</h1>
+      <p class="carousel-item__description">Ściany równo zagipsowane i gotowe do malowania po wyschnięciu.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="carousel-item carousel-item--11">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">13 grudnia 2021</h2>
+      <h1 class="carousel-item__title">Mamy to!</h1>
+      <p class="carousel-item__description">Położona podłoga, zamontowane drzwi i oświetlenie ledowe.</p>
+        </div>
+    </div>
+  </div>
+  
+</div>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
